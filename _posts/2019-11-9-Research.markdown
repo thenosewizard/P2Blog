@@ -8,7 +8,7 @@ categories: Product backlog
 # Researching and verifying our project
 
 This week I researched on ways to make the project come to light.
-Firstly I had to find some libaries to do text analysis. Some modules that I found were, spacy and NLTK.
+Firstly I had to find some libraries to do text analysis. Some modules that I found were, spacy and NLTK.
 The libraries allows us to clean, tokenize and lemmitize our text fairly easily once you have gotten the theory parts
 of the concept right. This allows the computer to "read" the information that it has been given as all of the text
 has been cleaned, transformed to their base words and finally converted to vectors/numbers that the machine can 
