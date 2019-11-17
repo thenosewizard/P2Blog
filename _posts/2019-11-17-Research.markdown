@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Byte hackz"
+date:   2019-11-17 23:55:08 +0800
+categories: Hackathon
+---
+
+# The hackathon
+
+This week has been a fairly interesting week as this is my first time participating in a hackathon organized by the school. It was held over 3 days,
+The first day my team and I were busy with coding the project. People did what they were assigned to do. It went smoothly. The second day was when it 
+was evident that the integration of the project was harder that it seemed. The frontend and the backend were having some difficulties integrating the project. While I 
+had problems integrating the machine learning code into the project. Problems that arised was me using new techniques such as pipelines in sklearn and not realising the 
+consquences it would have. The rnn, since we did not have enough compute power, was not trained very well and thus, wrote like some would describe "a 2 year old". But in the end
+we managed to integrate it all together and present it.
+
+The final day, was the presentation day. We went first and gave our presentation. There was Annad and another data scientist, which I seemed to forgot what his name was. But the feedback was
+very good and showed that I still had a lot to learn. Mostly about neural networks, and maybe GANs. Although I do not know if the latter is possible, as Gans are hard to make. The winner of AI
+was, cdetect, a project which can recognise gun and knife images. That was very impressive indeed. As I have never ventured into image classification with machine learning. The other groups had also
+interesing projects such as an AI resume finder and Cosign, which I thought was very interesing. Mainly due to the fact that the application did hand recognition as using plots for training the hand signs,
+instead of using images. 
+
+# End 
+That's all for this week. See you next week. 
+
