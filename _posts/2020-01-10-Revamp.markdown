@@ -5,7 +5,7 @@ date:   2020-01-10 22:55:02 +0800
 categories: Assignment 2
 ---
 
-# Assignment 2
+## Assignment 2
 This week my team and I discussed on how we can improve our product and what to do this sprint.
 ## New Features
 As assignment 2 required that we have some significant features added to the project, we were thinking of involving more of the community. We decided to add a discussion board, similar to 
