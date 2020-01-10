@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "New features"
+date:   2020-01-10 22:55:02 +0800
+categories: Assignment 2
+---
+
+# Assignment 2
+This week my team and I discussed on how we can improve our product and what to do this sprint.
+## New Features
+As assignment 2 required that we have some significant features added to the project, we were thinking of involving more of the community. We decided to add a discussion board, similar to 
+growtopia. We also thought of adding an admin page to do administrative tasks. We also plan to add another section on top of steam, which would be yelp.
+
+## Improved AI
+For the byte hackz, since we did not have enough compute power and not enough knowledge on NLP, I must admit that the algorithms did not perform well. As part of the significant features. I plan to incorporate a better AI into our system. I have found some finial thesis and research papers that explain the general direction on going about doing it. 
+
+As the old algorithm mostly borrows techniques from sentiment analysis, the new algorithm will take in both review and reviewer centric features. Such as structural features, pos percentages, semantic features, unigram and bigram features. As at least 2 - 3 other research papers have used similar methods and achieved similar levels of success, I would likely be using these features to determine if a review if fake/unauthentic. 
+
+## Technical architecture
+For assignment one, our AI and database was all clumped into with the main application logic. Which made it hard, and where one person's machine can run the code but the others cannot. To overcome this we've decided to move the AI accessible through an API and moving the database to fire base. The API would have to run on a live server, in order to ensure that the server can run in any server once its dependencies and configurations have been configured, we will also use docker to contain it. 
+
+
+## Tasks for sprint 3
+So for this sprint I am mostly in-charge of writing the improved AI, the API and deploying the API to a server. Next sprint will most likely be focused on RNNs and LSTMs, which is used to text generation. 
+
+## End
+That's all for this week, see you next week!
