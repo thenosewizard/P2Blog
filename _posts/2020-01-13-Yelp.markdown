@@ -18,13 +18,12 @@ This dataset has around 300,000 reviews which is more that enough to get a relia
 ## Progress
 I've only read the research paper for now, but I am expecting to complete this algorithm by this week. 
 The way the research paper finds out which and fake/real is that they use neural networks. However there is one bump that I have run into, which is Linear Discriminant Analysis, which is something new. From what I understand, it is a way to reduce dimensions in a graph to its lowest possible form, while not losing much information. 
-The use for this is for choosing uni and bigrams from the reviews. 
+The use for this is for choosing uni and bigrams from the reviews. More research needs to be done, as I also do not know why bi and unigrams are used for in NLP exactly.Although there is one more way which is to just take the top 100 unigram and bigram words, although easier, it leads
+to a poorer performance. 
+
 Perhaps if the use of uni and bi grams is for the AI to learn the context of the word, then I suppose word embedding would be a better choice.
 
 
-More research needs to be done, as I also do not know why bi and unigrams are used for in NLP exactly.
-Although there is one more way which is to just take the top 100 unigram and bigram words, although easier, it leads
-to a poorer performance. 
 
 ## End 
 Ok that's all for now, see you in the next blog post!
