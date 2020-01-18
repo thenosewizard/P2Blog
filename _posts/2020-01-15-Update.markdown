@@ -1,0 +1,51 @@
+
+# Progess
+
+The yelp api as I had hoped to retrieve data from turned out to be not very useful. The Api only returned 3 reviews per business, of which were not completed.
+However there is an alternative, the yelp dataset provided by Yelp itself, that contains over 3 million reviews. That is more that enough for me to perform my training for
+the indiviual businesses that we are going to generate text from. In the previous blog post, I mentioned something about LDR, however due to time constraints I have decided not
+to take that approach and to instead use word embeddings to let the AI learn contextual representations. 
+
+## Research paper
+
+I have found a new research paper as well, which utilizes CNN. 
+A 1D network to process text and the LSTM next in the line to process the so called "Chunks" instead of textual sequnences.
+
+
+## Training
+Training the model on fake reviews made me realised that model tuning is a very much needed thing to do.
+This is due to the fact that my model is overfitting, which means that during training it performs very well, however
+during testing it fairs poorly. There are some methods to combat this, 1. is to introduce more data, 2. Is to add dropout layers or 
+regularization. My data for now for fake reviews only consists of around 72 000 reviews, 36 000 which are true and the other half, fake.
+I am quite new to model tuning so this is quite interesting as how people came up with solutions to solve these kind of problems.
+
+
+## Analysis
+So far my validation accuracy has been fluctuating by a great deal. Im not so sure as to why. More research is needed.
+1 possible solution is to artificially increase the data so that it is not uneven, by adding some noise. Either that or
+to do data augmentation by adding synonyms along with word embedding so that we can "increase our data".
+
+## Update
+Increasing the batch size seems to provide better performance. Shuffling the data with pandas may seem to help as well.
+Shuffing did help, validation accuracy went from around 0.012.. to around 0.7 validation accuracy. That is a huge jump in
+performance. 
+
+
+## End
+That is all for this week, see you next time!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# End 
+That's all for this week, see you next week!
