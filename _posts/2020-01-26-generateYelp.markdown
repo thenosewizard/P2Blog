@@ -10,7 +10,7 @@ each had around 5000 reviews, more than what is needed.
 
 # Generation of text
 
-I played around with one restaurent's reviews today. The name of which is "Secret Pizza". I ran the model for around 10 epochs and these are the results
+I played around with one restaurant's reviews today. The name of which is "Secret Pizza". I ran the model for around 10 epochs and these are the results
 
 ## Result type - not ambitious (3 reviews generated)
 
