@@ -1,0 +1,27 @@
+# Final Post
+
+P2 ended about 2 days ago, I must say is was an enriching experiance. This is due to all of the new and exciting 
+technologies that I have learnt which are being used in many software applications. Some are docker, NLP and deep learning. Demo day
+was fun, explaining to people how our application and AI works and see them going suprised that such technologies exist. 
+
+
+# What I have learnt
+
+What I learnt was how to effective plan and strategize in preparing and planning out a project. Communication
+between team members and new technology. I must say that our project was a success due to us not only being able to
+complete the intended requirements, but to also brainstorm and add new features useful towards our application. 
+
+# What I did in this project
+
+So to recap, what I did in this project was the AI. The AI is able to process millions of reviews and generate a summarized
+review. The AI can also identify and pinpoint negative and positive features of a product, and also able to determine
+if a review is true/false based on features of fake reviews which it learnt during the training process. To be able to train the AI, a linux environment with anaconda was needed to be set up. As it is much easier to train
+there than on a windows environment. Version control, which is critical so that everything does not break in the next software update, is easier in linux as well. 
+
+I also developed an API to be deployed in google cloud, so that our main application can send information and receive
+the AI predicted responses. This was done so that we do not overload the application with requirements. 
+
+
+# The end
+
+That's all for Portfolio 2! See you in future projects! 
